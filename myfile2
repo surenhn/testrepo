@@ -6,3 +6,7 @@ cricket
 music
 singer
 football
+driver.findElement(By.xpath("//span[text()=\"Vehicle Type\"]")).click();
+		driver.findElement(By.xpath("(//div[@class='v-input--selection-controls__ripple'])[5]")).click();
+		driver.findElement(By.xpath("//span[text()='Make & Model']")).click();
+		driver.findElement(By.xpath("//span[text()='Fiat']")).click();
