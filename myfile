@@ -6,3 +6,10 @@ System.setProperty("webdriver.chrome.driver","F:\\Drivers\\Chromedriver.exe");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.get("https:www.canadadrives.ca/");
 		driver.manage().window().maximize();
+			// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","F:\\Drivers\\ChromeDriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://kaplan.co.uk/courses/acca/applied-knowledge");
+		driver.manage().window().maximize();
+		JavascriptExecutor je=(JavascriptExecutor)driver;
+		je.executeScript("window.scrollBy(0,600)", args);
